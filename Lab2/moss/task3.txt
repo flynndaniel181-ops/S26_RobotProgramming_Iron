@@ -1,0 +1,1 @@
+Used SetPen to make pen black, cleared screen, used RotateAbsolute to rotate turtle and teleop arrow keys to move forward
