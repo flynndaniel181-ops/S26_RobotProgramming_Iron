@@ -1,0 +1,107 @@
+[0.027s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam:/opt/ros/humble:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example /usr/bin/cmake --build /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces -- -j4 -l4
+[0.135s] [  2%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c.o[0m
+[0.135s] [  4%] Built target turtle_interfaces__cpp
+[0.148s] In file included from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c:4[m[K:
+[0.148s] [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.h:14:10:[m[K [01;31m[Kfatal error: [m[Kstdlib.h: No such file or directory
+[0.148s]    14 | #include [01;31m[K<stdlib.h>[m[K
+[0.148s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.148s] compilation terminated.
+[0.148s] [  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c.o[0m
+[0.148s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/build.make:196: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_msg__functions.c.o] Error 1
+[0.149s] gmake[2]: *** Waiting for unfinished jobs....
+[0.157s] [  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c.o[0m
+[0.169s] In file included from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c:4[m[K:
+[0.169s] [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.h:14:10:[m[K [01;31m[Kfatal error: [m[Kstdlib.h: No such file or directory
+[0.169s]    14 | #include [01;31m[K<stdlib.h>[m[K
+[0.169s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.169s] compilation terminated.
+[0.169s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/build.make:224: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_color__functions.c.o] Error 1
+[0.170s] [  8%] Built target ament_cmake_python_copy_turtle_interfaces
+[0.173s] In file included from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c:4[m[K:
+[0.173s] [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.h:14:10:[m[K [01;31m[Kfatal error: [m[Kstdlib.h: No such file or directory
+[0.173s]    14 | #include [01;31m[K<stdlib.h>[m[K
+[0.173s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.173s] compilation terminated.
+[0.176s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/build.make:210: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_pose__functions.c.o] Error 1
+[0.177s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.177s] gmake[1]: *** Waiting for unfinished jobs....
+[0.194s] [ 10%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_msg__type_support.cpp.o[0m
+[0.206s] [ 12%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[0.217s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.217s]                  from [01m[K/usr/include/c++/11/utility:68[m[K,
+[0.217s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.217s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_msg__struct.hpp:8[m[K,
+[0.217s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/turtle_msg__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.217s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_msg__type_support.cpp:4[m[K:
+[0.217s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.217s]    39 | #include [01;31m[K<features.h>[m[K
+[0.217s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.217s] compilation terminated.
+[0.218s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:164: CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_msg__type_support.cpp.o] Error 1
+[0.218s] gmake[2]: *** Waiting for unfinished jobs....
+[0.218s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.218s]                  from [01m[K/usr/include/c++/11/utility:68[m[K,
+[0.219s]                  from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+[0.219s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/detail/set_pose__struct.hpp:8[m[K,
+[0.219s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.219s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp:4[m[K:
+[0.219s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.219s]    39 | #include [01;31m[K<features.h>[m[K
+[0.219s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.219s] compilation terminated.
+[0.219s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:178: CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o] Error 1
+[0.220s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.222s] [ 14%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_msg__type_support.cpp.o[0m
+[0.232s] [ 17%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp.o[0m
+[0.237s] [ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[0.244s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.244s]                  from [01m[K/usr/include/c++/11/cstddef:49[m[K,
+[0.245s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_msg__type_support.cpp:5[m[K:
+[0.245s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.245s]    39 | #include [01;31m[K<features.h>[m[K
+[0.245s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.245s] compilation terminated.
+[0.245s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/build.make:153: CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_msg__type_support.cpp.o] Error 1
+[0.245s] gmake[2]: *** Waiting for unfinished jobs....
+[0.249s] [ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_pose__type_support.cpp.o[0m
+[0.253s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.253s]                  from [01m[K/usr/include/c++/11/utility:68[m[K,
+[0.253s]                  from [01m[K/usr/include/c++/11/array:38[m[K,
+[0.254s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_pose__type_support.cpp:5[m[K:
+[0.254s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.254s]    39 | #include [01;31m[K<features.h>[m[K
+[0.254s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.254s] compilation terminated.
+[0.254s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.254s]                  from [01m[K/usr/include/c++/11/utility:68[m[K,
+[0.254s]                  from [01m[K/usr/include/c++/11/array:38[m[K,
+[0.254s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp:5[m[K:
+[0.254s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.254s]    39 | #include [01;31m[K<features.h>[m[K
+[0.254s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.254s] compilation terminated.
+[0.254s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:178: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_pose__type_support.cpp.o] Error 1
+[0.255s] gmake[2]: *** Waiting for unfinished jobs....
+[0.255s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:164: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_msg__type_support.cpp.o] Error 1
+[0.262s] [ 23%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__type_support.cpp.o[0m
+[0.264s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.264s]                  from [01m[K/usr/include/c++/11/cstddef:49[m[K,
+[0.264s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_cpp/turtle_interfaces/srv/set_pose__type_support.cpp:5[m[K:
+[0.264s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.264s]    39 | #include [01;31m[K<features.h>[m[K
+[0.264s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.264s] compilation terminated.
+[0.265s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/build.make:167: CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_pose__type_support.cpp.o] Error 1
+[0.265s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[0.275s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+[0.275s]                  from [01m[K/usr/include/c++/11/utility:68[m[K,
+[0.275s]                  from [01m[K/usr/include/c++/11/array:38[m[K,
+[0.275s]                  from [01m[K/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__type_support.cpp:5[m[K:
+[0.275s] [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:39:10:[m[K [01;31m[Kfatal error: [m[Kfeatures.h: No such file or directory
+[0.275s]    39 | #include [01;31m[K<features.h>[m[K
+[0.275s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.275s] compilation terminated.
+[0.276s] gmake[2]: *** [CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:192: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_color__type_support.cpp.o] Error 1
+[0.276s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.276s] gmake: *** [Makefile:146: all] Error 2
+[0.323s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam:/opt/ros/humble:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example /usr/bin/cmake --build /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/turtle_interfaces -- -j4 -l4

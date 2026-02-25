@@ -1,0 +1,22 @@
+[0.754s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data
+[1.022s] running egg_info
+[1.023s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[1.023s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[1.025s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.026s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.026s] running build_py
+[1.026s] running install
+[1.027s] running install_lib
+[1.028s] running install_data
+[1.028s] running install_egg_info
+[1.030s] removing '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.032s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[1.033s] running install_scripts
+[1.058s] Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/webcam
+[1.058s] Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/webcam
+[1.058s] writing list of installed files to '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/install.log'
+[1.088s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/build install --record /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data

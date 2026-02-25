@@ -1,0 +1,18 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing webcam.egg-info/PKG-INFO
+writing dependency_links to webcam.egg-info/dependency_links.txt
+writing entry points to webcam.egg-info/entry_points.txt
+writing requirements to webcam.egg-info/requires.txt
+writing top-level names to webcam.egg-info/top_level.txt
+reading manifest file 'webcam.egg-info/SOURCES.txt'
+writing manifest file 'webcam.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+Installing webcam_pub script to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/webcam
+Installing webcam_sub script to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/install/webcam/lib/webcam
+
+Installed /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab3/chuang/roscourse_ws/build/webcam
+running symlink_data
