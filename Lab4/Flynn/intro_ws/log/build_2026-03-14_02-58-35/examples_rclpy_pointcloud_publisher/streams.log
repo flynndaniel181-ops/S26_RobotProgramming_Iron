@@ -1,0 +1,37 @@
+[1.973s] Invoking command in '/home/yahboom/intro_ws/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data
+[2.704s] running egg_info
+[2.707s] creating ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[2.707s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[2.707s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[2.708s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[2.709s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[2.710s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[2.710s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.719s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.723s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.723s] running build
+[2.724s] running build_py
+[2.724s] creating /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build
+[2.725s] creating /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib
+[2.725s] creating /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.725s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.727s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.730s] running install
+[2.731s] running install_lib
+[2.733s] creating /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[2.733s] copying /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[2.734s] copying /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[2.737s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[2.742s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[2.743s] running install_data
+[2.744s] creating /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[2.744s] creating /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[2.745s] creating /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[2.745s] copying resource/examples_rclpy_pointcloud_publisher -> /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[2.745s] copying package.xml -> /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[2.748s] running install_egg_info
+[2.750s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.5-py3.10.egg-info
+[2.753s] running install_scripts
+[2.825s] Installing pointcloud_publisher script to /home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[2.826s] writing list of installed files to '/home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[2.881s] Invoked command in '/home/yahboom/intro_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/yahboom/intro_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,83 @@
+[0.051s] Invoking command in '/home/yahboom/intro_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/intro_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/yahboom/intro_ws/install/examples_rclcpp_minimal_subscriber
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.445s] -- The CXX compiler identification is GNU 11.4.0
+[0.468s] -- Detecting C compiler ABI info
+[0.755s] -- Detecting C compiler ABI info - done
+[0.771s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.771s] -- Detecting C compile features
+[0.772s] -- Detecting C compile features - done
+[0.780s] -- Detecting CXX compiler ABI info
+[1.101s] -- Detecting CXX compiler ABI info - done
+[1.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.131s] -- Detecting CXX compile features
+[1.133s] -- Detecting CXX compile features - done
+[1.163s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.865s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.581s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[2.995s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.066s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.134s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.731s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.777s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.296s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.414s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.690s] -- Looking for pthread.h
+[4.990s] -- Looking for pthread.h - found
+[4.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.255s] -- Found Threads: TRUE  
+[5.489s] -- Found rclcpp_components: 16.0.17 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.836s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.285s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.291s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.292s] -- Configured cppcheck include dirs: 
+[6.292s] -- Configured cppcheck exclude dirs and/or files: 
+[6.298s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.298s] -- Configured cpplint exclude dirs and/or files: 
+[6.304s] -- Added test 'lint_cmake' to check CMake code style
+[6.309s] -- Added test 'uncrustify' to check C / C++ code style
+[6.309s] -- Configured uncrustify additional arguments: 
+[6.315s] -- Added test 'xmllint' to check XML markup files
+[6.325s] -- Configuring done
+[6.410s] -- Generating done
+[6.446s] -- Build files have been written to: /home/yahboom/intro_ws/build/examples_rclcpp_minimal_subscriber
+[6.464s] Invoked command in '/home/yahboom/intro_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake /home/yahboom/intro_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/yahboom/intro_ws/install/examples_rclcpp_minimal_subscriber
+[6.478s] Invoking command in '/home/yahboom/intro_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/intro_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[6.715s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[24.664s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[25.567s] [  8%] Built target subscriber_lambda
+[25.662s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[47.318s] [ 16%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[48.486s] [ 16%] Built target subscriber_member_function_with_type_adapter
+[48.602s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[66.402s] [ 25%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[67.269s] [ 25%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[67.364s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[82.439s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[83.596s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[84.759s] [ 41%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[85.954s] [ 45%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[87.931s] [ 45%] Built target subscriber_not_composable
+[120.140s] [ 50%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[121.418s] [ 54%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[121.697s] [ 54%] Built target subscriber_content_filtering
+[122.183s] [ 58%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[122.421s] [ 58%] Built target subscriber_member_function_with_topic_statistics
+[123.057s] [ 58%] Built target subscriber_member_function
+[123.153s] [ 62%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[129.647s] [ 66%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[129.971s] [ 66%] Built target static_wait_set_subscriber
+[130.066s] [ 70%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[136.598s] [ 75%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[136.922s] [ 75%] Built target time_triggered_wait_set_subscriber
+[137.018s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[143.542s] [ 83%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[143.872s] [ 83%] Built target wait_set_subscriber
+[143.965s] [ 87%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[163.135s] [ 91%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[163.162s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[186.605s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[188.619s] [100%] Built target wait_set_subscriber_library

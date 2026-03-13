@@ -1,0 +1,35 @@
+[2.680s] Invoking command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build
+[3.453s] running develop
+[3.961s] Removing /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam.egg-link (link to .)
+[3.961s] Link points to ['/home/yahboom/S26_RobotProgramming_Iron/Lab3/Flynn/roscourse_ws/build/webcam', '.']: uninstall aborted
+[4.024s] Invoked command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build
+[4.028s] Invoking command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/src/webcam': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build install --record /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data --force
+[4.745s] running egg_info
+[4.747s] writing ../../build/webcam/webcam.egg-info/PKG-INFO
+[4.748s] writing dependency_links to ../../build/webcam/webcam.egg-info/dependency_links.txt
+[4.750s] writing entry points to ../../build/webcam/webcam.egg-info/entry_points.txt
+[4.750s] writing requirements to ../../build/webcam/webcam.egg-info/requires.txt
+[4.750s] writing top-level names to ../../build/webcam/webcam.egg-info/top_level.txt
+[4.754s] reading manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[4.757s] writing manifest file '../../build/webcam/webcam.egg-info/SOURCES.txt'
+[4.757s] running build
+[4.758s] running build_py
+[4.758s] running install
+[4.759s] running install_lib
+[4.761s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.761s] copying /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build/lib/webcam/cam_sub.py -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.763s] copying /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build/lib/webcam/__init__.py -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.763s] copying /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build/lib/webcam/cam_pub.py -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam
+[4.766s] byte-compiling /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_sub.py to cam_sub.cpython-310.pyc
+[4.767s] byte-compiling /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/__init__.py to __init__.cpython-310.pyc
+[4.768s] byte-compiling /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam/cam_pub.py to cam_pub.cpython-310.pyc
+[4.769s] running install_data
+[4.769s] copying resource/webcam -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/share/ament_index/resource_index/packages
+[4.772s] copying package.xml -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/share/webcam
+[4.774s] running install_egg_info
+[4.779s] Copying ../../build/webcam/webcam.egg-info to /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages/webcam-0.0.0-py3.10.egg-info
+[4.783s] running install_scripts
+[4.842s] Installing webcam_pub script to /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/webcam
+[4.844s] Installing webcam_sub script to /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/webcam
+[4.845s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/install.log'
+[4.895s] Invoked command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/src/webcam' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webcam build --build-base /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/build install --record /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/webcam/install.log --single-version-externally-managed install_data --force

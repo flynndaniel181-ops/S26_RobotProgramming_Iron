@@ -1,0 +1,33 @@
+[2.680s] Invoking command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build install --record /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[3.389s] running egg_info
+[3.390s] creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[3.391s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[3.394s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[3.394s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[3.394s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[3.394s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[3.394s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.396s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.397s] adding license file 'LICENSE'
+[3.399s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.400s] running build
+[3.400s] running build_py
+[3.400s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build
+[3.400s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build/lib
+[3.400s] copying teleop_twist_keyboard.py -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build/lib
+[3.401s] running install
+[3.401s] running install_lib
+[3.402s] copying /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[3.404s] byte-compiling /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[3.407s] running install_data
+[3.407s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/share/ament_index
+[3.407s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[3.407s] creating /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[3.408s] copying resource/teleop_twist_keyboard -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[3.408s] copying package.xml -> /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[3.408s] running install_egg_info
+[3.413s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.1-py3.10.egg-info
+[3.414s] running install_scripts
+[3.470s] Installing teleop_twist_keyboard script to /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[3.471s] writing list of installed files to '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/install.log'
+[3.523s] Invoked command in '/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/build install --record /home/yahboom/S26_RobotProgramming_Iron/Lab4/Flynn/roscourse_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data

@@ -1,0 +1,15 @@
+/home/yahboom/intro_ws/install/intro_interfaces/share/ament_index/resource_index/package_run_dependencies/intro_interfaces
+/home/yahboom/intro_ws/install/intro_interfaces/share/ament_index/resource_index/parent_prefix_path/intro_interfaces
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/ament_prefix_path.sh
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/ament_prefix_path.dsv
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/path.sh
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/environment/path.dsv
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.bash
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.sh
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.zsh
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/local_setup.dsv
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/package.dsv
+/home/yahboom/intro_ws/install/intro_interfaces/share/ament_index/resource_index/packages/intro_interfaces
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfacesConfig.cmake
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/cmake/intro_interfacesConfig-version.cmake
+/home/yahboom/intro_ws/install/intro_interfaces/share/intro_interfaces/package.xml

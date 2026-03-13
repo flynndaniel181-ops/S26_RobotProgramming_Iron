@@ -1,0 +1,5 @@
+string shape "circle"
+float64[<=2] size
+---
+float64 area
+int64 errflag

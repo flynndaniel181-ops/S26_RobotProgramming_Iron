@@ -1,0 +1,49 @@
+[1.884s] Invoking command in '/home/yahboom/intro_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build install --record /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[2.673s] running egg_info
+[2.674s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[2.674s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[2.674s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[2.674s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[2.675s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[2.675s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[2.675s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.688s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.689s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.689s] running build
+[2.689s] running build_py
+[2.689s] creating /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build
+[2.690s] creating /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib
+[2.690s] creating /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.690s] copying examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py -> /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.690s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.690s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.692s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.694s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.698s] running install
+[2.699s] running install_lib
+[2.701s] creating /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.702s] copying /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.702s] copying /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.704s] copying /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.704s] copying /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.705s] copying /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[2.707s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function_with_wait_for_all_acked.py to publisher_member_function_with_wait_for_all_acked.cpython-310.pyc
+[2.709s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[2.712s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[2.712s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[2.712s] byte-compiling /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.713s] running install_data
+[2.718s] creating /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[2.718s] creating /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[2.723s] creating /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[2.723s] copying resource/examples_rclpy_minimal_publisher -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[2.723s] copying package.xml -> /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[2.723s] running install_egg_info
+[2.724s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.5-py3.10.egg-info
+[2.724s] running install_scripts
+[2.778s] Installing publisher_local_function script to /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.779s] Installing publisher_member_function script to /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.780s] Installing publisher_member_function_with_wait_for_all_acked script to /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.780s] Installing publisher_old_school script to /home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.784s] writing list of installed files to '/home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/install.log'
+[2.836s] Invoked command in '/home/yahboom/intro_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/build install --record /home/yahboom/intro_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

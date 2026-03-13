@@ -1,0 +1,30 @@
+[1.810s] Invoking command in '/home/yahboom/intro_ws/src/turtle_test': PYTHONPATH=/home/yahboom/intro_ws/build/turtle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/intro_ws/build/turtle_test/build install --record /home/yahboom/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data
+[2.527s] running egg_info
+[2.529s] writing ../../build/turtle_test/turtle_test.egg-info/PKG-INFO
+[2.530s] writing dependency_links to ../../build/turtle_test/turtle_test.egg-info/dependency_links.txt
+[2.531s] writing entry points to ../../build/turtle_test/turtle_test.egg-info/entry_points.txt
+[2.531s] writing requirements to ../../build/turtle_test/turtle_test.egg-info/requires.txt
+[2.532s] writing top-level names to ../../build/turtle_test/turtle_test.egg-info/top_level.txt
+[2.537s] reading manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[2.537s] adding license file 'LICENSE'
+[2.538s] writing manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[2.539s] running build
+[2.539s] running build_py
+[2.540s] copying turtle_test/turtle_service.py -> /home/yahboom/intro_ws/build/turtle_test/build/lib/turtle_test
+[2.540s] copying turtle_test/turtle_action_client.py -> /home/yahboom/intro_ws/build/turtle_test/build/lib/turtle_test
+[2.541s] running install
+[2.541s] running install_lib
+[2.543s] copying /home/yahboom/intro_ws/build/turtle_test/build/lib/turtle_test/turtle_service.py -> /home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[2.543s] copying /home/yahboom/intro_ws/build/turtle_test/build/lib/turtle_test/turtle_action_client.py -> /home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test
+[2.545s] byte-compiling /home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test/turtle_service.py to turtle_service.cpython-310.pyc
+[2.548s] byte-compiling /home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test/turtle_action_client.py to turtle_action_client.cpython-310.pyc
+[2.549s] running install_data
+[2.550s] copying package.xml -> /home/yahboom/intro_ws/install/turtle_test/share/turtle_test
+[2.550s] running install_egg_info
+[2.555s] removing '/home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.556s] Copying ../../build/turtle_test/turtle_test.egg-info to /home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages/turtle_test-0.0.0-py3.10.egg-info
+[2.557s] running install_scripts
+[2.611s] Installing make_square script to /home/yahboom/intro_ws/install/turtle_test/lib/turtle_test
+[2.612s] Installing turtle script to /home/yahboom/intro_ws/install/turtle_test/lib/turtle_test
+[2.613s] writing list of installed files to '/home/yahboom/intro_ws/build/turtle_test/install.log'
+[2.660s] Invoked command in '/home/yahboom/intro_ws/src/turtle_test' returned '0': PYTHONPATH=/home/yahboom/intro_ws/build/turtle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahboom/intro_ws/install/turtle_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/yahboom/intro_ws/build/turtle_test/build install --record /home/yahboom/intro_ws/build/turtle_test/install.log --single-version-externally-managed install_data
