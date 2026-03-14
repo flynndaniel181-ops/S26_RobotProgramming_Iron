@@ -1,0 +1,15 @@
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.xml

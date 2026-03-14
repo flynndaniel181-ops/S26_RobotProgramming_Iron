@@ -1,0 +1,8 @@
+#request
+float32 square_size
+---
+#response
+TurtlePose final_pose
+---
+#feedback
+TurtlePose current_pose

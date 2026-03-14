@@ -1,0 +1,19 @@
+[1.372s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard/build --no-deps symlink_data
+[1.789s] running develop
+[1.789s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.789s]   warnings.warn(
+[2.028s] running egg_info
+[2.028s] writing teleop_twist_keyboard.egg-info/PKG-INFO
+[2.028s] writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt
+[2.029s] writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt
+[2.029s] writing requirements to teleop_twist_keyboard.egg-info/requires.txt
+[2.029s] writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt
+[2.033s] reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.033s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.035s] running build_ext
+[2.035s] Creating /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop-twist-keyboard.egg-link (link to .)
+[2.037s] Installing teleop_twist_keyboard script to /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.037s] 
+[2.037s] Installed /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard
+[2.037s] running symlink_data
+[2.431s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard/prefix_override:/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/roscourse_ws/build/teleop_twist_keyboard/build --no-deps symlink_data

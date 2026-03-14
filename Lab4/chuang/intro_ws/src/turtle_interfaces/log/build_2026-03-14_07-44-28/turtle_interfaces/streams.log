@@ -1,0 +1,66 @@
+[0.048s] Invoking command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble: /usr/bin/cmake /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/install/turtle_interfaces
+[0.273s] -- The C compiler identification is GNU 11.4.0
+[0.410s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.670s] -- Detecting C compiler ABI info - done
+[0.683s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.684s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.954s] -- Detecting CXX compiler ABI info - done
+[0.967s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.967s] -- Detecting CXX compile features
+[0.968s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.146s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.294s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.902s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.736s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[3.737s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.737s]   turtle_interfaces --arguments-file
+[3.737s]   /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces/rosidl_adapter__arguments__turtle_interfaces.json
+[3.737s]   --output-dir
+[3.737s]   /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces/rosidl_adapter/turtle_interfaces
+[3.737s]   --output-file
+[3.738s]   /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces/rosidl_adapter/turtle_interfaces.idls)
+[3.738s]   returned error code 1:
+[3.738s] 
+[3.738s]   Error processing 'float32[3] turtleRGB' of
+[3.738s]   'turtle_interfaces/SetColors_Request': ''turtleRGB' is an invalid field
+[3.738s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[3.738s] 
+[3.738s]   Traceback (most recent call last):
+[3.738s] 
+[3.738s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[3.739s]       return _run_code(code, main_globals, None,
+[3.739s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[3.739s]       exec(code, run_globals)
+[3.739s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.739s]       sys.exit(main())
+[3.739s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[3.739s]       abs_idl_file = convert_to_idl(
+[3.739s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[3.739s]       return convert_srv_to_idl(
+[3.740s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[3.740s]       srv = parse_service_string(package_name, input_file.stem, content)
+[3.740s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[3.740s]       request_message = parse_message_string(
+[3.740s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[3.740s]       fields.append(Field(
+[3.740s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[3.740s]       raise NameError(
+[3.740s] 
+[3.740s]   NameError: 'turtleRGB' is an invalid field name.  It should have the
+[3.741s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[3.741s] 
+[3.741s] Call Stack (most recent call first):
+[3.741s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.741s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[3.741s] 
+[3.741s] [0m
+[3.741s] -- Configuring incomplete, errors occurred!
+[3.741s] See also "/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces/CMakeFiles/CMakeOutput.log".
+[3.752s] Invoked command in '/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/build/turtle_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble: /usr/bin/cmake /home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/yahboom/Desktop/S26_RobotProgramming_Iron/Lab4/chuang/intro_ws/src/turtle_interfaces/install/turtle_interfaces
