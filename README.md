@@ -7,4 +7,3 @@ Neng Fang
 Daniel Flynn
 Somber Xie
 Moss Dengler
-Ashley Wong
