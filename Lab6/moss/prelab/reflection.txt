@@ -1,0 +1,2 @@
+Most/all info covered in the background sections was already known, biggest things to remember/focus on are is postition if frame dependant, not only in terms of the location of the frames origin but also the rotation/direction of axes.
+Good refresher.
