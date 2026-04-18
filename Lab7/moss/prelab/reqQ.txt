@@ -1,0 +1,3 @@
+This node subscribes to the /cmd_vel topic and receives geometry_msgs/Twist messages.
+It translates them into wheel velocities for the robot. 
+It can move forward/backward via linear.x and rotate in place or arc-turn via angular.z.
