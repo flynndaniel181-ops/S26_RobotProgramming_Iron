@@ -1,0 +1,153 @@
+[1.908s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'my_robot']
+[1.909s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['my_robot'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x717893d71c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x717893d71750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x717893d71750>>)
+[5.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.371s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yahboom/roscourse_sim_ws'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.381s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.457s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.459s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.459s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.460s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.461s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.462s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[5.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore'
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore_ament_install'
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_pkg']
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_pkg'
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_meta']
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_meta'
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ros']
+[5.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ros'
+[5.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot' with type 'ros.ament_cmake' and name 'my_robot'
+[5.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extensions ['ignore', 'ignore_ament_install']
+[5.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extension 'ignore'
+[5.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extension 'ignore_ament_install'
+[5.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extensions ['colcon_pkg']
+[5.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extension 'colcon_pkg'
+[5.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extensions ['colcon_meta']
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extension 'colcon_meta'
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extensions ['ros']
+[5.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/roscourse_sim_description) by extension 'ros'
+[5.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roscourse_sim_description' with type 'ros.ament_cmake' and name 'roscourse_sim_description'
+[5.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.523s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.886s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'roscourse_sim_description' in 'src/roscourse_sim_description'
+[5.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.930s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yahboom/roscourse_sim_ws/install
+[5.933s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/yahboom/yahboomcar_ws/install
+[5.934s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yahboom/gmapping_ws/install
+[5.942s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 76 installed packages in /home/yahboom/cartoros2/install
+[5.953s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /opt/ros/humble
+[5.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.286s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[6.287s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.288s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yahboom/roscourse_sim_ws/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yahboom/roscourse_sim_ws/install/my_robot', 'merge_install': False, 'path': '/home/yahboom/roscourse_sim_ws/src/my_robot', 'symlink_install': False, 'test_result_base': None}
+[6.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yahboom/roscourse_sim_ws/src/my_robot' with build type 'ament_cmake'
+[6.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yahboom/roscourse_sim_ws/src/my_robot'
+[6.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/roscourse_sim_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/roscourse_sim_ws/build/my_robot -- -j4 -l4
+[10.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/roscourse_sim_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --build /home/yahboom/roscourse_sim_ws/build/my_robot -- -j4 -l4
+[11.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yahboom/roscourse_sim_ws/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/roscourse_sim_ws/build/my_robot
+[11.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[11.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yahboom/roscourse_sim_ws/build/my_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yahboom/cartoros2/install/yahboomcar_nav:/home/yahboom/cartoros2/install/yahboomcar_ctrl:/home/yahboom/cartoros2/install/yahboom_visual:/home/yahboom/cartoros2/install/yahboom_dog_joint_state:/home/yahboom/cartoros2/install/yahboom_description:/home/yahboom/cartoros2/install/yahboom_color_identify_server:/home/yahboom/cartoros2/install/yahboom_bringup:/home/yahboom/cartoros2/install/yahboom_base:/home/yahboom/cartoros2/install/yahboom_app_save_map:/home/yahboom/cartoros2/install/update_map:/home/yahboom/cartoros2/install/rosboard:/home/yahboom/cartoros2/install/path_planner_server:/home/yahboom/cartoros2/install/nav2_simple_commander:/home/yahboom/cartoros2/install/nav2_gazebo_spawner:/home/yahboom/cartoros2/install/localization_server:/home/yahboom/cartoros2/install/laserscan_to_point_pulisher:/home/yahboom/yahboomcar_ws/install/yahboom_dog_example:/opt/ros/humble /usr/bin/cmake --install /home/yahboom/roscourse_sim_ws/build/my_robot
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot' for CMake module files
+[11.659s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot' for CMake config files
+[11.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'cmake_prefix_path')
+[11.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.ps1'
+[11.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.dsv'
+[11.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.sh'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/bin'
+[11.703s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[11.704s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages'
+[11.707s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/bin'
+[11.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.ps1'
+[11.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.dsv'
+[11.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.sh'
+[11.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.bash'
+[11.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.zsh'
+[11.782s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/roscourse_sim_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[12.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[12.409s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot' for CMake module files
+[12.410s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot' for CMake config files
+[12.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'cmake_prefix_path')
+[12.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.ps1'
+[12.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.dsv'
+[12.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/hook/cmake_prefix_path.sh'
+[12.430s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/bin'
+[12.432s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[12.442s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/lib/python3.10/site-packages'
+[12.443s] Level 1:colcon.colcon_core.environment:checking '/home/yahboom/roscourse_sim_ws/install/my_robot/bin'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.ps1'
+[12.451s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.dsv'
+[12.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.sh'
+[12.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.bash'
+[12.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/yahboom/roscourse_sim_ws/install/my_robot/share/my_robot/package.zsh'
+[12.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yahboom/roscourse_sim_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[12.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.497s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.619s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.080s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/roscourse_sim_ws/install/local_setup.ps1'
+[13.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/roscourse_sim_ws/install/_local_setup_util_ps1.py'
+[13.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/roscourse_sim_ws/install/setup.ps1'
+[13.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/roscourse_sim_ws/install/local_setup.sh'
+[13.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yahboom/roscourse_sim_ws/install/_local_setup_util_sh.py'
+[13.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/roscourse_sim_ws/install/setup.sh'
+[13.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/roscourse_sim_ws/install/local_setup.bash'
+[13.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/roscourse_sim_ws/install/setup.bash'
+[13.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yahboom/roscourse_sim_ws/install/local_setup.zsh'
+[13.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yahboom/roscourse_sim_ws/install/setup.zsh'
