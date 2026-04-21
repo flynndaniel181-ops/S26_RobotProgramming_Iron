@@ -1,4 +1,0 @@
-source;share/raspbot_patrol/environment/ament_prefix_path.sh
-source;share/raspbot_patrol/environment/library_path.sh
-source;share/raspbot_patrol/environment/path.sh
-source;share/raspbot_patrol/environment/pythonpath.sh

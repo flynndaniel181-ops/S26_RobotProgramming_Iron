@@ -1,7 +1,0 @@
-{
-  "package_name": "raspbot_patrol",
-  "non_idl_tuples": [
-    "/home/yahboom/S26_RobotProgramming_Iron/final_ws/src/raspbot_patrol:msg/PatrolStatus.msg",
-    "/home/yahboom/S26_RobotProgramming_Iron/final_ws/src/raspbot_patrol:action/GoToWaypoint.action"
-  ]
-}

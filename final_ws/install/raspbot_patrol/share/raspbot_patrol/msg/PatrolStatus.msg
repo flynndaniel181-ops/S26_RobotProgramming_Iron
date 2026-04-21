@@ -1,3 +1,0 @@
-float32 obstacle_distance
-string patrol_state
-int32 current_waypoint

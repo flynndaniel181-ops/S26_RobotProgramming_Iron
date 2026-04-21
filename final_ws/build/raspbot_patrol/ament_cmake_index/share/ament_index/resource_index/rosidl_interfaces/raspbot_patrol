@@ -1,4 +1,0 @@
-action/GoToWaypoint.action
-action/GoToWaypoint.idl
-msg/PatrolStatus.idl
-msg/PatrolStatus.msg
