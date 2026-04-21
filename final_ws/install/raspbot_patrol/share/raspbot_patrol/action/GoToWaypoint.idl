@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from raspbot_patrol/action/GoToWaypoint.action
+// generated code does not contain a copyright notice
+
+
+module raspbot_patrol {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal: The index of the waypoint we want to go to")
+    struct GoToWaypoint_Goal {
+      int32 waypoint_index;
+    };
+    @verbatim (language="comment", text=
+      "Result: Did we make it?")
+    struct GoToWaypoint_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback: Real-time updates during the move")
+    struct GoToWaypoint_Feedback {
+      float distance_to_waypoint;
+
+      string current_state;
+    };
+  };
+};

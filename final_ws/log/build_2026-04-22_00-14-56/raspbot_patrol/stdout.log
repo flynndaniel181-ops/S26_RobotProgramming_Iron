@@ -1,0 +1,278 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yahboom/S26_RobotProgramming_Iron/final_ws/build/raspbot_patrol
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target ament_cmake_python_copy_raspbot_patrol
+running egg_info
+creating raspbot_patrol.egg-info
+writing raspbot_patrol.egg-info/PKG-INFO
+writing dependency_links to raspbot_patrol.egg-info/dependency_links.txt
+writing top-level names to raspbot_patrol.egg-info/top_level.txt
+writing manifest file 'raspbot_patrol.egg-info/SOURCES.txt'
+reading manifest file 'raspbot_patrol.egg-info/SOURCES.txt'
+writing manifest file 'raspbot_patrol.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_raspbot_patrol_egg
+[  5%] Built target raspbot_patrol__cpp
+[  7%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_generator_c.dir/rosidl_generator_c/raspbot_patrol/msg/detail/patrol_status__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_generator_c.dir/rosidl_generator_c/raspbot_patrol/action/detail/go_to_waypoint__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 20%] [32m[1mLinking C shared library libraspbot_patrol__rosidl_generator_c.so[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raspbot_patrol/msg/patrol_status__type_support.cpp.o[0m
+[ 23%] Built target raspbot_patrol__rosidl_generator_c
+[ 25%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/raspbot_patrol/action/go_to_waypoint__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raspbot_patrol/msg/detail/dds_fastrtps/patrol_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raspbot_patrol/msg/detail/patrol_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/raspbot_patrol/action/detail/dds_fastrtps/go_to_waypoint__type_support.cpp.o[0m
+[ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/raspbot_patrol/action/detail/go_to_waypoint__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libraspbot_patrol__rosidl_typesupport_cpp.so[0m
+[ 41%] Built target raspbot_patrol__rosidl_typesupport_cpp
+[ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raspbot_patrol/msg/detail/patrol_status__type_support_c.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libraspbot_patrol__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 51%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raspbot_patrol/msg/detail/patrol_status__type_support.c.o[0m
+[ 53%] [32m[1mLinking CXX shared library libraspbot_patrol__rosidl_typesupport_introspection_cpp.so[0m
+[ 56%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/raspbot_patrol/action/detail/go_to_waypoint__type_support.c.o[0m
+[ 56%] Built target raspbot_patrol__rosidl_typesupport_fastrtps_cpp
+[ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 61%] [32m[1mLinking C shared library libraspbot_patrol__rosidl_typesupport_introspection_c.so[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/raspbot_patrol/action/detail/go_to_waypoint__type_support_c.cpp.o[0m
+[ 64%] Built target raspbot_patrol__rosidl_typesupport_introspection_cpp
+[ 64%] Built target raspbot_patrol__rosidl_typesupport_introspection_c
+[ 66%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_c.dir/rosidl_typesupport_c/raspbot_patrol/action/go_to_waypoint__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/raspbot_patrol__rosidl_typesupport_c.dir/rosidl_typesupport_c/raspbot_patrol/msg/patrol_status__type_support.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libraspbot_patrol__rosidl_typesupport_c.so[0m
+[ 71%] Built target raspbot_patrol__rosidl_typesupport_c
+[ 74%] [32m[1mLinking CXX shared library libraspbot_patrol__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target raspbot_patrol__rosidl_typesupport_fastrtps_c
+[ 74%] Built target raspbot_patrol
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target raspbot_patrol__py
+[ 79%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_generator_py.dir/rosidl_generator_py/raspbot_patrol/msg/_patrol_status_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_generator_py.dir/rosidl_generator_py/raspbot_patrol/action/_go_to_waypoint_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/raspbot_patrol/libraspbot_patrol__rosidl_generator_py.so[0m
+[ 84%] Built target raspbot_patrol__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/raspbot_patrol__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target raspbot_patrol__rosidl_typesupport_c__pyext
+[100%] Built target raspbot_patrol__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target raspbot_patrol__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/ament_index/resource_index/rosidl_interfaces/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__struct.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__functions.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__type_support.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__functions.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/go_to_waypoint.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/patrol_status.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__functions.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__type_support.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__functions.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__struct.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/library_path.sh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/library_path.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_generator_c.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__traits.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__struct.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__builder.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/go_to_waypoint.hpp
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__traits.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__struct.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__builder.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/patrol_status.hpp
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/dds_fastrtps
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/dds_fastrtps
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__type_support.c
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__type_support.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_c.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__type_support.cpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/action/detail/go_to_waypoint__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg
+-- Up-to-date: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__type_support.cpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/include/raspbot_patrol/raspbot_patrol/msg/detail/patrol_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/pythonpath.sh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/pythonpath.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol-0.0.0-py3.10.egg-info
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action/_go_to_waypoint_s.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action/__init__.py
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action/_go_to_waypoint.py
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/libraspbot_patrol__rosidl_generator_py.so
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/__init__.py
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg/_patrol_status_s.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg/__init__.py
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg/_patrol_status.py
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/_raspbot_patrol_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol'...
+Compiling '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/__init__.py'...
+Listing '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action'...
+Compiling '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action/__init__.py'...
+Compiling '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/action/_go_to_waypoint.py'...
+Listing '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg'...
+Compiling '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg/__init__.py'...
+Compiling '/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/msg/_patrol_status.py'...
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/local/lib/python3.10/dist-packages/raspbot_patrol/raspbot_patrol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_generator_py.so
+-- Set runtime path of "/home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/lib/libraspbot_patrol__rosidl_generator_py.so" to ""
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/msg/PatrolStatus.idl
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/action/GoToWaypoint.idl
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/msg/PatrolStatus.msg
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/action/GoToWaypoint.action
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/ament_index/resource_index/package_run_dependencies/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/ament_index/resource_index/parent_prefix_path/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/ament_prefix_path.sh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/ament_prefix_path.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/path.sh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/environment/path.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/local_setup.bash
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/local_setup.sh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/local_setup.zsh
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/local_setup.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/package.dsv
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/ament_index/resource_index/packages/raspbot_patrol
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_generator_cExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_generator_cppExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_cExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrol__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_generator_pyExport.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/export_raspbot_patrol__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrolConfig.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/cmake/raspbot_patrolConfig-version.cmake
+-- Installing: /home/yahboom/S26_RobotProgramming_Iron/final_ws/install/raspbot_patrol/share/raspbot_patrol/package.xml
