@@ -32,6 +32,7 @@ endif()
 
 install(PROGRAMS
   scripts/patrol_node.py
+  scripts/ultrasonic_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
