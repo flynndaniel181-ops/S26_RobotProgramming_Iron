@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """
-ROS2 node that reads the Raspbot2 ultrasonic sensor and publishes
-distance (in meters) to /ultrasonic_distance at ~20 Hz.
+export PYTHONPATH=$PYTHONPATH:~/temp/lib
 
-Hardware access uses the McLumk_Wheel_Sports library located at
-/home/pi/project_demo/lib on the robot.
+run this command before executing this script
 """
+import os
 import sys
-sys.path.append('/home/pi/project_demo/lib')
 
 import rclpy
 from rclpy.node import Node
