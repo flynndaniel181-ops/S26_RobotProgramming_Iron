@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    # Calibration results from today's session
+    speed_linear: 0.2
+    speed_angular: 0.5
+    time_per_meter: 2.0     # Change this after testing!
+    time_per_90_deg: 1.5    # Change this after testing!
+    
+    # Obstacle avoidance
+    stop_distance: 0.3      # Meters
+    resume_distance: 0.5    # Meters

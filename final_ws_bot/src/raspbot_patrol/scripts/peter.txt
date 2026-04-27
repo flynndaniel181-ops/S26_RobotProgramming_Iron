@@ -1,0 +1,7 @@
+cd ~/final_ws
+colcon build --packages-select raspbot_patrol
+source install/setup.bash
+
+chmod +x src/raspbot_patrol/scripts/ultrasonic_publisher.py
+
+ros2 run raspbot_patrol ultrasonic_publisher.py
