@@ -4,6 +4,8 @@ export PYTHONPATH=$PYTHONPATH:~/temp/lib
 
 ros2 run raspbot_patrol ultrasonic_publisher.py --ros-args --params-file <path>/params.yaml
 """
+import sys
+sys.path.append('/root/temp/lib')
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32

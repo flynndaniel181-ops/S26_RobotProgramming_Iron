@@ -7,6 +7,8 @@ ros2 run raspbot_patrol patrol_node.py --ros-args --params-file <path>/params.ya
 Hardcoded detour: stop -> optional reverse -> left ~90 deg -> forward arc ->
 left ~90 deg -> resume patrol with the same circle_param.
 """
+import sys
+sys.path.append('/root/temp/lib')
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
