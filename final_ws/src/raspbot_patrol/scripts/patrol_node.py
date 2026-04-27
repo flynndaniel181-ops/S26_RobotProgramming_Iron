@@ -6,9 +6,13 @@ ros2 run raspbot_patrol patrol_node.py --ros-args --params-file <path>/params.ya
 
 Hardcoded detour: stop -> optional reverse -> left ~90 deg -> forward arc ->
 left ~90 deg -> resume patrol with the same circle_param.
+
+Patrol budget: laps * seconds_per_lap is "clean lap" time. Wall clock ticks down
+every second; each completed detour adds detour_time_allowance seconds back
+(measure one full detour on the robot and set it in params.yaml).
 """
-import sys
-sys.path.append('/root/temp/lib')
+import threading
+
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionServer
@@ -54,12 +58,19 @@ class PatrolNode(Node):
 
         self.declare_parameter('control_hz', 20.0)
         self.declare_parameter('seconds_per_lap', 10.0)
+        self.declare_parameter('detour_time_allowance', 0.0)
 
         self.speed = self.get_parameter('motor_speed').value
         self.circle_param = self.get_parameter('circle_param').value
         self.stop_threshold = self.get_parameter('stop_distance').value
         control_hz = self.get_parameter('control_hz').value
         self.seconds_per_lap = self.get_parameter('seconds_per_lap').value
+        self.detour_time_allowance = float(
+            self.get_parameter('detour_time_allowance').value)
+
+        self._detour_credit_lock = threading.Lock()
+        self._detour_credit_pending = 0.0
+        self._detours_finished = 0
 
         self.detour_arc_param = int(self.get_parameter('detour_arc_param').value)
 
@@ -99,7 +110,7 @@ class PatrolNode(Node):
         self.get_logger().info(
             f'Patrol ready | circle_param={self.circle_param} '
             f'detour: stop={t_pre}s back={t_back}s L90={t_t1}s arc={t_arc}s@{self.detour_arc_param} L90b={t_t2}s '
-            f'control={control_hz}Hz')
+            f'control={control_hz}Hz | detour_time_allowance={self.detour_time_allowance}s')
 
     def distance_callback(self, msg):
         self.last_distance = msg.data
@@ -169,35 +180,59 @@ class PatrolNode(Node):
             if self.detour_counter >= self.detour_turn2_ticks:
                 stop_robot()
                 self.detour_counter = 0
+                if self.detour_time_allowance > 0.0:
+                    with self._detour_credit_lock:
+                        self._detour_credit_pending += self.detour_time_allowance
+                self._detours_finished += 1
                 self.state = CIRCLE
-                self.get_logger().info('Resume patrol circle (same circle_param) ↻')
+                self.get_logger().info(
+                    f'Resume circle | detour #{self._detours_finished} done'
+                    + (f' (+{self.detour_time_allowance}s patrol credit)'
+                       if self.detour_time_allowance > 0.0 else ''))
             return
 
     def execute_callback(self, goal_handle):
         laps = goal_handle.request.waypoint_index
-        duration = int(laps * self.seconds_per_lap)
+        circle_budget_s = float(laps * self.seconds_per_lap)
+        with self._detour_credit_lock:
+            self._detour_credit_pending = 0.0
+        self._detours_finished = 0
+
         self.get_logger().info(
-            f'Goal received – patrol {laps} lap(s) ≈ {duration} s')
+            f'Goal received – {laps} lap(s), no-obstacle budget {circle_budget_s:.1f} s '
+            f'(each finished detour adds {self.detour_time_allowance}s)')
 
         self.state = CIRCLE
 
         feedback = GoToWaypoint.Feedback()
         result = GoToWaypoint.Result()
-        elapsed = 0
+        circle_seconds_remaining = circle_budget_s
+        wall_seconds = 0
+        credit_applied_total = 0.0
 
-        while elapsed < duration:
+        while circle_seconds_remaining > 0.0:
             feedback.distance_to_waypoint = self.last_distance
             feedback.current_state = self.state
             goal_handle.publish_feedback(feedback)
             time.sleep(1.0)
-            elapsed += 1
+            wall_seconds += 1
+            with self._detour_credit_lock:
+                credit = self._detour_credit_pending
+                self._detour_credit_pending = 0.0
+            circle_seconds_remaining += credit
+            credit_applied_total += credit
+            circle_seconds_remaining -= 1.0
 
         self.state = IDLE
         stop_robot()
 
         goal_handle.succeed()
         result.success = True
-        result.message = f'Patrol complete – {laps} lap(s) in {elapsed} s'
+        result.message = (
+            f'Patrol complete – {laps} lap(s), base {circle_budget_s:.0f} s, '
+            f'{self._detours_finished} detour(s), +{credit_applied_total:.1f} s credit, '
+            f'{wall_seconds} s wall'
+        )
         self.get_logger().info(result.message)
         return result
 

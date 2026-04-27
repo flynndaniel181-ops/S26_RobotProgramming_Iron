@@ -22,3 +22,7 @@ ros2 run raspbot_patrol patrol_node.py --ros-args \
   --params-file install/raspbot_patrol/share/raspbot_patrol/config/params.yaml
 
 ros2 action send_goal --feedback /go_to_waypoint raspbot_patrol/action/GoToWaypoint "{waypoint_index: 2}"
+
+
+
+ros2 launch raspbot_patrol patrol_stack.launch.py params_file:=/home/yahboom/S26_RobotProgramming_Iron/final_ws/src/raspbot_patrol/config/params.yaml

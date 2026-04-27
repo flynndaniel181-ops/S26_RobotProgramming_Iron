@@ -4,7 +4,7 @@
     # -----------------------------------------------------------------
     # Ultrasonic publisher
     # -----------------------------------------------------------------
-    sensor_publish_hz: 20.0
+    sensor_publish_hz: 10.0
 
     # -----------------------------------------------------------------
     # Motor / circle patrol (normal driving)
@@ -18,7 +18,7 @@
     # -----------------------------------------------------------------
     # Obstacle detection
     # -----------------------------------------------------------------
-    stop_distance: 0.25
+    stop_distance: 0.35
 
     # -----------------------------------------------------------------
     # Hardcoded detour: stop -> optional reverse -> left ~90 deg -> arc
@@ -27,10 +27,10 @@
     # -----------------------------------------------------------------
     detour_pre_stop_time: 0.35       # Brake time after obstacle before detour starts
     detour_back_time: 0.0            # If > 0, reverse this many seconds first; 0 = skip
-    detour_turn_90_time: 1.2         # In-place left turn duration (tune for ~90 deg)
+    detour_turn_90_time: 0.9        # In-place left turn duration (tune for ~90 deg)
     detour_arc_time: 1.6             # Duration of forward arc segment
-    detour_arc_param: -150             # Differential bias for arc (same meaning as circle_param)
-    detour_second_turn_time: 1.2     # Second left turn to re-align with circle tangent
+    detour_arc_param: -200           # Differential bias for arc (same meaning as circle_param)
+    detour_second_turn_time: 0.9   # Second left turn to re-align with circle tangent
 
     # If true, second turn duration = detour_turn_90_time * detour_second_turn_scale
     detour_use_second_turn_scale: false
@@ -40,4 +40,9 @@
     # Patrol timing
     # -----------------------------------------------------------------
     control_hz: 20.0
+    # Time for one full lap with NO obstacles (open-loop; tune on the robot).
     seconds_per_lap: 10.0
+    # Measured wall time for ONE complete detour (stop -> ... -> back to CIRCLE).
+    # Each finished detour adds this many seconds back to the patrol budget so that
+    # lap time is not "eaten" by obstacle handling (set 0 to disable compensation).
+    detour_time_allowance: 3.0
