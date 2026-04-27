@@ -1,11 +1,35 @@
 /**:
   ros__parameters:
-    # Calibration results from today's session
-    speed_linear: 0.2
-    speed_angular: 0.5
-    time_per_meter: 2.0     # Change this after testing!
-    time_per_90_deg: 1.5    # Change this after testing!
-    
-    # Obstacle avoidance
-    stop_distance: 0.3      # Meters
-    resume_distance: 0.5    # Meters
+
+    # ═══════════════════════════════════════════════════════════════
+    #  Ultrasonic Publisher
+    # ═══════════════════════════════════════════════════════════════
+    sensor_publish_hz: 20.0         # Ultrasonic publish rate (Hz)
+
+    # ═══════════════════════════════════════════════════════════════
+    #  Motor / Circle-driving
+    # ═══════════════════════════════════════════════════════════════
+    motor_speed: 20                 # Motor PWM speed (0-255)
+    circle_param: 10                # Turning bias for circle
+                                    #   >0 → curves LEFT  (right wheels faster)
+                                    #   <0 → curves RIGHT (left wheels faster)
+                                    #   bigger = tighter circle
+
+    # ═══════════════════════════════════════════════════════════════
+    #  Obstacle Thresholds (meters)
+    # ═══════════════════════════════════════════════════════════════
+    stop_distance: 0.25             # Distance to trigger obstacle stop
+    safe_distance: 0.45             # Distance to consider path clear
+
+    # ═══════════════════════════════════════════════════════════════
+    #  Avoidance Timing (seconds)
+    # ═══════════════════════════════════════════════════════════════
+    avoid_stop_time: 0.5            # Full-stop duration before backing up
+    avoid_back_time: 1.0            # Reverse duration
+    avoid_turn_time: 0.8            # Rotate-away duration
+
+    # ═══════════════════════════════════════════════════════════════
+    #  Patrol
+    # ═══════════════════════════════════════════════════════════════
+    control_hz: 10.0                # Control loop frequency (Hz)
+    seconds_per_lap: 10.0           # How many seconds counts as 1 lap

@@ -5,3 +5,20 @@ source install/setup.bash
 chmod +x src/raspbot_patrol/scripts/ultrasonic_publisher.py
 
 ros2 run raspbot_patrol ultrasonic_publisher.py
+
+
+
+cd ~/final_ws
+colcon build --packages-select raspbot_patrol
+source install/setup.bash
+export PYTHONPATH=$PYTHONPATH:~/temp/lib
+
+
+ros2 run raspbot_patrol ultrasonic_publisher.py --ros-args \
+  --params-file install/raspbot_patrol/share/raspbot_patrol/config/params.yaml
+
+
+ros2 run raspbot_patrol patrol_node.py --ros-args \
+  --params-file install/raspbot_patrol/share/raspbot_patrol/config/params.yaml
+
+ros2 action send_goal --feedback /go_to_waypoint raspbot_patrol/action/GoToWaypoint "{waypoint_index: 2}"

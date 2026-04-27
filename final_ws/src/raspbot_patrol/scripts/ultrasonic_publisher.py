@@ -2,15 +2,13 @@
 """
 export PYTHONPATH=$PYTHONPATH:~/temp/lib
 
-run this command before executing this script
+ros2 run raspbot_patrol ultrasonic_publisher.py --ros-args --params-file <path>/params.yaml
 """
-import os
 import sys
-
+sys.path.append('/root/temp/lib')
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
-
 import time
 
 from McLumk_Wheel_Sports import bot
@@ -20,23 +18,24 @@ class UltrasonicPublisher(Node):
     def __init__(self):
         super().__init__('ultrasonic_publisher')
 
+        # ── Load parameter from params.yaml ──────────────────────
+        self.declare_parameter('sensor_publish_hz', 20.0)
+        publish_hz = self.get_parameter('sensor_publish_hz').value
+
         self.publisher_ = self.create_publisher(Float32, '/ultrasonic_distance', 10)
+        self.timer = self.create_timer(1.0 / publish_hz, self.timer_callback)
 
-        # 20 Hz publish rate (0.05 s period, matches official sample timing)
-        self.timer = self.create_timer(0.05, self.timer_callback)
-
-        # Turn on the ultrasonic ranging function
         bot.Ctrl_Ulatist_Switch(1)
         time.sleep(0.1)
 
-        self.get_logger().info('Ultrasonic publisher started – publishing to /ultrasonic_distance')
+        self.get_logger().info(
+            f'Ultrasonic publisher started | rate={publish_hz} Hz → /ultrasonic_distance')
 
     def timer_callback(self):
         try:
             diss_H = bot.read_data_array(0x1B, 1)[0]
             diss_L = bot.read_data_array(0x1A, 1)[0]
             dis_mm = (diss_H << 8) | diss_L
-
             dis_m = dis_mm / 1000.0
 
             msg = Float32()
