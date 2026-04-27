@@ -23,6 +23,7 @@ from raspbot_patrol.action import GoToWaypoint
 import time
 
 from McLumk_Wheel_Sports import (
+    drifting,
     move_param_forward,
     move_backward,
     rotate_left,
@@ -128,7 +129,7 @@ class PatrolNode(Node):
                 self.get_logger().warn(
                     f'Obstacle @ {self.last_distance:.2f} m → detour sequence')
             else:
-                move_param_forward(self.speed, self.circle_param)
+                drifting(self.speed,90, self.circle_param)
             return
 
         if self.state == DETOUR_STOP:
@@ -165,7 +166,7 @@ class PatrolNode(Node):
             return
 
         if self.state == DETOUR_ARC:
-            move_param_forward(self.speed, self.detour_arc_param)
+            drifting(self.speed, 90,self.detour_arc_param)
             self.detour_counter += 1
             if self.detour_counter >= self.detour_arc_ticks:
                 stop_robot()
