@@ -1,35 +1,43 @@
 /**:
   ros__parameters:
 
-    # ═══════════════════════════════════════════════════════════════
-    #  Ultrasonic Publisher
-    # ═══════════════════════════════════════════════════════════════
-    sensor_publish_hz: 20.0         # Ultrasonic publish rate (Hz)
+    # -----------------------------------------------------------------
+    # Ultrasonic publisher
+    # -----------------------------------------------------------------
+    sensor_publish_hz: 20.0
 
-    # ═══════════════════════════════════════════════════════════════
-    #  Motor / Circle-driving
-    # ═══════════════════════════════════════════════════════════════
-    motor_speed: 20                 # Motor PWM speed (0-255)
-    circle_param: 10                # Turning bias for circle
-                                    #   >0 → curves LEFT  (right wheels faster)
-                                    #   <0 → curves RIGHT (left wheels faster)
-                                    #   bigger = tighter circle
+    # -----------------------------------------------------------------
+    # Motor / circle patrol (normal driving)
+    # -----------------------------------------------------------------
+    motor_speed: 25
+    circle_param: 50
+    # circle_param > 0: curve left (right wheels faster)
+    # circle_param < 0: curve right (left wheels faster)
+    # larger |circle_param|: tighter turn / smaller circle
 
-    # ═══════════════════════════════════════════════════════════════
-    #  Obstacle Thresholds (meters)
-    # ═══════════════════════════════════════════════════════════════
-    stop_distance: 0.25             # Distance to trigger obstacle stop
-    safe_distance: 0.45             # Distance to consider path clear
+    # -----------------------------------------------------------------
+    # Obstacle detection
+    # -----------------------------------------------------------------
+    stop_distance: 0.25
 
-    # ═══════════════════════════════════════════════════════════════
-    #  Avoidance Timing (seconds)
-    # ═══════════════════════════════════════════════════════════════
-    avoid_stop_time: 0.5            # Full-stop duration before backing up
-    avoid_back_time: 1.0            # Reverse duration
-    avoid_turn_time: 0.8            # Rotate-away duration
+    # -----------------------------------------------------------------
+    # Hardcoded detour: stop -> optional reverse -> left ~90 deg -> arc
+    # -> left ~90 deg -> resume same circle_param
+    # No encoders: angles are time-based; tune on the real robot.
+    # -----------------------------------------------------------------
+    detour_pre_stop_time: 0.35       # Brake time after obstacle before detour starts
+    detour_back_time: 0.0            # If > 0, reverse this many seconds first; 0 = skip
+    detour_turn_90_time: 1.2         # In-place left turn duration (tune for ~90 deg)
+    detour_arc_time: 1.6             # Duration of forward arc segment
+    detour_arc_param: -150             # Differential bias for arc (same meaning as circle_param)
+    detour_second_turn_time: 1.2     # Second left turn to re-align with circle tangent
 
-    # ═══════════════════════════════════════════════════════════════
-    #  Patrol
-    # ═══════════════════════════════════════════════════════════════
-    control_hz: 10.0                # Control loop frequency (Hz)
-    seconds_per_lap: 10.0           # How many seconds counts as 1 lap
+    # If true, second turn duration = detour_turn_90_time * detour_second_turn_scale
+    detour_use_second_turn_scale: false
+    detour_second_turn_scale: 1.0
+
+    # -----------------------------------------------------------------
+    # Patrol timing
+    # -----------------------------------------------------------------
+    control_hz: 20.0
+    seconds_per_lap: 10.0
