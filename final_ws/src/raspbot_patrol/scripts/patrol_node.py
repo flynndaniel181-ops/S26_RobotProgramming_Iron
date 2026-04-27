@@ -45,14 +45,15 @@ class PatrolNode(Node):
         super().__init__('patrol_node')
 
         self.declare_parameter('motor_speed', 20)
-        self.declare_parameter('circle_param', 10)
+        self.declare_parameter('circle_param', 65)
         self.declare_parameter('stop_distance', 0.25)
 
         self.declare_parameter('detour_pre_stop_time', 0.35)
         self.declare_parameter('detour_back_time', 0.0)
+        self.declare_parameter('detour_speed', 5)
         self.declare_parameter('detour_turn_90_time', 1.2)
         self.declare_parameter('detour_arc_time', 1.6)
-        self.declare_parameter('detour_arc_param', 12)
+        self.declare_parameter('detour_arc_param', -65)
         self.declare_parameter('detour_second_turn_time', 1.2)
         self.declare_parameter('detour_use_second_turn_scale', False)
         self.declare_parameter('detour_second_turn_scale', 1.0)
@@ -62,6 +63,7 @@ class PatrolNode(Node):
         self.declare_parameter('detour_time_allowance', 0.0)
 
         self.speed = self.get_parameter('motor_speed').value
+        self.detour_speed = self.get_parameter('detour_speed').value
         self.circle_param = self.get_parameter('circle_param').value
         self.stop_threshold = self.get_parameter('stop_distance').value
         control_hz = self.get_parameter('control_hz').value
@@ -73,7 +75,7 @@ class PatrolNode(Node):
         self._detour_credit_pending = 0.0
         self._detours_finished = 0
 
-        self.detour_arc_param = int(self.get_parameter('detour_arc_param').value)
+        self.detour_arc_param = self.get_parameter('detour_arc_param').value
 
         t_pre = float(self.get_parameter('detour_pre_stop_time').value)
         t_back = float(self.get_parameter('detour_back_time').value)
@@ -122,14 +124,14 @@ class PatrolNode(Node):
 
         # Circle patrol: only here can ultrasonic re-trigger a new detour
         if self.state == CIRCLE:
-            if self.last_distance < self.stop_threshold:
+            if (self.last_distance != 0) and (self.last_distance < self.stop_threshold):
                 stop_robot()
                 self.state = DETOUR_STOP
                 self.detour_counter = 0
                 self.get_logger().warn(
                     f'Obstacle @ {self.last_distance:.2f} m → detour sequence')
             else:
-                drifting(self.speed,90, self.circle_param)
+                move_param_forward(self.speed, self.circle_param)
             return
 
         if self.state == DETOUR_STOP:
@@ -166,7 +168,7 @@ class PatrolNode(Node):
             return
 
         if self.state == DETOUR_ARC:
-            drifting(self.speed, 90,self.detour_arc_param)
+            move_param_forward(self.detour_speed,  self.detour_arc_param)
             self.detour_counter += 1
             if self.detour_counter >= self.detour_arc_ticks:
                 stop_robot()

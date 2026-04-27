@@ -9,16 +9,13 @@
     # -----------------------------------------------------------------
     # Motor / circle patrol (normal driving)
     # -----------------------------------------------------------------
-    motor_speed: 25
-    circle_param: 50
-    # circle_param > 0: curve left (right wheels faster)
-    # circle_param < 0: curve right (left wheels faster)
-    # larger |circle_param|: tighter turn / smaller circle
+    motor_speed: 20
+    circle_param: 58
 
     # -----------------------------------------------------------------
     # Obstacle detection
     # -----------------------------------------------------------------
-    stop_distance: 0.35
+    stop_distance: 0.20
 
     # -----------------------------------------------------------------
     # Hardcoded detour: stop -> optional reverse -> left ~90 deg -> arc
@@ -27,10 +24,11 @@
     # -----------------------------------------------------------------
     detour_pre_stop_time: 0.35       # Brake time after obstacle before detour starts
     detour_back_time: 0.0            # If > 0, reverse this many seconds first; 0 = skip
-    detour_turn_90_time: 0.9        # In-place left turn duration (tune for ~90 deg)
-    detour_arc_time: 1.6             # Duration of forward arc segment
-    detour_arc_param: -200           # Differential bias for arc (same meaning as circle_param)
-    detour_second_turn_time: 0.9   # Second left turn to re-align with circle tangent
+    detour_speed: 5
+    detour_turn_90_time: 1.5        # In-place left turn duration (tune for ~90 deg)
+    detour_arc_time: 1.7             # Duration of forward arc segment
+    detour_arc_param: -250          # Differential bias for arc (same meaning as circle_param)
+    detour_second_turn_time: 1.5   # Second left turn to re-align with circle tangent
 
     # If true, second turn duration = detour_turn_90_time * detour_second_turn_scale
     detour_use_second_turn_scale: false
@@ -41,8 +39,8 @@
     # -----------------------------------------------------------------
     control_hz: 20.0
     # Time for one full lap with NO obstacles (open-loop; tune on the robot).
-    seconds_per_lap: 10.0
+    seconds_per_lap: 8.8
     # Measured wall time for ONE complete detour (stop -> ... -> back to CIRCLE).
     # Each finished detour adds this many seconds back to the patrol budget so that
     # lap time is not "eaten" by obstacle handling (set 0 to disable compensation).
-    detour_time_allowance: 3.0
+    detour_time_allowance: 4.0
