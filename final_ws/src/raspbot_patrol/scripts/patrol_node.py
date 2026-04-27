@@ -11,6 +11,8 @@ Patrol budget: laps * seconds_per_lap is "clean lap" time. Wall clock ticks down
 every second; each completed detour adds detour_time_allowance seconds back
 (measure one full detour on the robot and set it in params.yaml).
 """
+import sys
+sys.path.append('/root/temp/lib')
 import threading
 
 import rclpy
